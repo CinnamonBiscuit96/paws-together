@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Mona Sans"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-quiz.css" />
+    <link rel="stylesheet" href="nav.css" />
+  </head>
+
+  <body class="grid-container media-grid">
+    <nav>
+      <ul class="flex-container">
+        <li>
+          <a href="home.html">Home</a>
+        </li>
+        <li>
+          <a href="nutrition.html">Nutrition</a>
+        </li>
+        <li>
+          <a href="quiz.html">Quiz</a>
+        </li>
+        <li>
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li>
+          <a href="https://www.thedogspaddocks.co.uk/" target="_blank"
+            >Dog Paddocks</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Quiz</h1>
+      <h2>Answer the Below Questions to Test Your Dog Knowledge</h2>
+    </header>
+
+    <main>
+        <!--=====QUIZ=====-->
+      <section class="border">
+        <form name="Quiz">
+          <p>Which of the below Fruits is toxic to dogs</p>
+          <br>
+          <input type="radio" name="fruit" value="grapes" />
+          <label for="grapes">Grapes</label>
+          <br>
+
+          <input type="radio" name="fruit" value="apples" />
+          <label for="apples">Apples</label>
+          <br>
+
+          <input type="radio" name="fruit" value="strawberries" />
+          <label for="strawberries">Strawberries</label>
+          <br>
+          <br>
+
+          <label for="bakers"
+            >According to a 2024 customer survey in the UK, what percentage of
+            dog owners reported feeding their dogs Bakers dog food?</label
+          >
+          <br>
+          <br>
+          <input type="number" name="bakers" min="0" max="100" step="7" />
+          <br>
+          <br>
+
+           <p>In the section discussing Affordable, Natural-Focused dog foods, what is an important point made about these brands?</p>
+           <br>
+          <input type="radio" name="natural" value="whole" />
+          <label for="whole">They are completely unprocessed whole-food diets</label>
+          <br>
+
+          <input type="radio" name="natural" value="medical" />
+          <label for="medical">They are designed only for dogs with medical conditions</label>
+          <br>
+
+          <input type="radio" name="natural" value="ingredients" />
+          <label for="ingredients">They use more natural ingredients than many standard brands but are still processed foods</label>
+          <br>
+          <br>
+
+          <p>According to the Recommended whole foods section, which of the following is safe for dogs when prepared correctly?</p>
+          <br>
+          <input type="radio" name="safe" value="steak" />
+          <label for="steak">Seasoned steak with salt and garlic</label>
+          <br>
+
+          <input type="radio" name="safe" value="chicken" />
+          <label for="chicken">Cooked, skinless chicken</label><br>
+
+          <input type="radio" name="safe" value="raisins" />
+          <label for="raisins">Grapes and raisins</label>
+          <br>
+          <br>
+
+               <p>Which 2 of the following Foods are whole foods?</p>
+          <br>
+          <input type="checkbox" name="whole" value="carrots" />
+          <label for="carrots">Carrots</label>
+          <br>
+
+          <input type="checkbox" name="whole" value="win" />
+          <label for="win">Winalot</label>
+          <br>
+
+          <input type="checkbox" name="whole" value="lamb"/>
+          <label for="lamb">Lamb</label>
+          <br>
+          <input type="checkbox" name="whole" value="lily" />
+          <label for="lily">Lily's Kitchen</label>
+
+          <br>
+          <br>
+
+  <label for="adults"
+            >What percentage of adults in the UK own a dog?</label
+          >
+          <br>
+          <br>
+          <input type="number" name="adults" min="0" max="100" step="29" />
+          <br>
+          <br>
+
+        </form>
+        <button type="button" onclick="checkAnswers();">Submit</button>
+      </section>
+    </main>
+
+    <footer>
+      <a href="credits.html">Credits</a>
+      <br />
+      <p>Website Created by Amy</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
