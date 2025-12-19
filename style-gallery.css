@@ -82,8 +82,9 @@ aside {
     margin: 0 auto;  
   }
 
-a {
+.paw-link {
   text-decoration: none;
   color: var(--link-color)
 }
+
 
