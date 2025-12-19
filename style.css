@@ -1,0 +1,97 @@
+:root {
+  --main-color: #7556c2ff;
+  --second-color: #78a25fff;
+  --link-color: #484d44ff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--main-color);
+  color: white;
+  font-family: "Mona Sans", Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+}
+
+/* ===== General Design ===== */
+
+header {
+  background-color: var(--second-color);
+  text-align: center;
+  padding: 1em;
+  margin-bottom:20px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 3em;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 1.6em;
+}
+
+h3 {
+  font-weight: 200;
+  font-size: 1.4em;
+}
+
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  background-color: var(--second-color);
+  
+}
+
+aside {
+  background-color: var(--main-color);
+  
+  /* text-align: center;  */
+  /* min-width: 100%; */
+}
+
+
+footer {
+  background-color: var(--main-color);
+  padding: 20px;
+}
+
+footer a {
+  color: #484d44ff;
+}
+
+footer p {
+  color: var(--second-color);
+    font-size: 1em;
+}
+
+/*===== Additional Design=====*/
+
+
+.margin-main {
+  margin-top: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+
